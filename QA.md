@@ -23,7 +23,7 @@ Checked November 20, 2026.
 - First public production deployment verified at https://digital-marketing-strategies-blog.vercel.app/.
 - Both pages and all visual assets returned HTTP 200 without authentication.
 - The cover URL was then updated to this production URL, committed, pushed to GitHub and redeployed through the Vercel connection.
-- Final verification includes checking the served cover contains the actual URL, production navigation and mobile overflow, image loading and console errors.
+- Final verification confirmed the served cover contains the actual URL, both directions of page navigation work, images load, and no horizontal overflow appears at 1440, 1024, 768 or 390 pixels. No website-origin console errors were observed.
 - A new public GitHub repository and a new Vercel project were created. No pre-existing repository or Vercel project was modified.
 
 Public cover: https://digital-marketing-strategies-blog.vercel.app/cover_page.html
@@ -34,4 +34,4 @@ Institution, full name, student ID, course and instructor are clear placeholders
 
 ## Git connection status
 
-The public website and its GitHub source are available. Vercel’s GitHub app has not yet been granted access to the new repository, so automatic deployment on push remains pending that provider authorization. No existing repository permissions were changed.
+Vercel’s existing GitHub app was granted access only to the new public repository, preserving its four previous repository selections. The new Vercel project is now connected to `ianherreraroque/digital-marketing-strategies-blog`; pushes to `main` trigger production deployment. No existing repository code or permissions were changed.

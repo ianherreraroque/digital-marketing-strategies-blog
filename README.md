@@ -24,7 +24,7 @@ Adapted from the two supplied HTML files. Their original navy, teal and warm acc
 
 Serve this directory with any static HTTP server. Both pages use relative links. There are no dependencies, databases, application scripts, environment variables or build steps.
 
-For Vercel, use the repository root, the Other/no-framework preset, no install command, no build command and output directory `.`. The public Vercel deployment uses the same committed files as the new GitHub repository. The GitHub app still needs access to this new repository before automatic deployment on push can be enabled; initial publication and the cover update were deployed through the Vercel connection.
+For Vercel, use the repository root, the Other/no-framework preset, no install command, no build command and output directory `.`. The new Vercel project is connected to this new GitHub repository. Pushes to `main` deploy production automatically. Initial publication and the cover URL update were deployed through the Vercel connection while repository access was being completed.
 
 ## Academic details
 
