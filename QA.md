@@ -20,8 +20,18 @@ Checked November 20, 2026.
 
 ## Production checks
 
-Pending first deployment; this section is updated after the public URL has been verified.
+- First public production deployment verified at https://digital-marketing-strategies-blog.vercel.app/.
+- Both pages and all visual assets returned HTTP 200 without authentication.
+- The cover URL was then updated to this production URL, committed, pushed to GitHub and redeployed through the Vercel connection.
+- Final verification includes checking the served cover contains the actual URL, production navigation and mobile overflow, image loading and console errors.
+- A new public GitHub repository and a new Vercel project were created. No pre-existing repository or Vercel project was modified.
+
+Public cover: https://digital-marketing-strategies-blog.vercel.app/cover_page.html
 
 ## Remaining academic details
 
 Institution, full name, student ID, course and instructor are clear placeholders because those details were not supplied. They must be completed before academic submission. Browser edits are temporary; edit the HTML source to save and publish them. No grade is guaranteed without the institution's complete rubric and review.
+
+## Git connection status
+
+The public website and its GitHub source are available. Vercel’s GitHub app has not yet been granted access to the new repository, so automatic deployment on push remains pending that provider authorization. No existing repository permissions were changed.

@@ -1,5 +1,9 @@
 # Strategy Studio — Digital Marketing Strategies
 
+- Public blog: https://digital-marketing-strategies-blog.vercel.app/
+- Cover page: https://digital-marketing-strategies-blog.vercel.app/cover_page.html
+- Repository: https://github.com/ianherreraroque/digital-marketing-strategies-blog
+
 Static university blog for **Unit 2 · Evidence 2**: Blog Design — Digital Marketing Strategies, Objectives, Applications, and Formulation Process.
 
 Adapted from the two supplied HTML files. Their original navy, teal and warm accent palette, six strategy explanations and Café Horizonte case are preserved and improved. Original input files were not changed.
@@ -20,7 +24,7 @@ Adapted from the two supplied HTML files. Their original navy, teal and warm acc
 
 Serve this directory with any static HTTP server. Both pages use relative links. There are no dependencies, databases, application scripts, environment variables or build steps.
 
-For Vercel, use the repository root, the Other/no-framework preset, no install command, no build command and output directory `.`. The new Vercel project is linked to the new GitHub repository so commits to `main` deploy automatically.
+For Vercel, use the repository root, the Other/no-framework preset, no install command, no build command and output directory `.`. The public Vercel deployment uses the same committed files as the new GitHub repository. The GitHub app still needs access to this new repository before automatic deployment on push can be enabled; initial publication and the cover update were deployed through the Vercel connection.
 
 ## Academic details
 
